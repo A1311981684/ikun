@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"image"
 	"image/gif"
+	"log"
 	"os"
 	"time"
 )
@@ -17,6 +18,9 @@ func main() {
 		selectedGIF = os.Args[1]
 	} else if len(os.Args) == 1 {
 		selectedGIF = "./BBB.gif"
+	} else {
+		log.Println("Too many arguments.")
+		return
 	}
 	//Open specific gif
 	//打开特定的gif
