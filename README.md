@@ -1,4 +1,4 @@
-# ikun
+# 蔡徐坤 CXK iKun
 Make our favourite kunkun play basketball in your command line! Implement with Golang and tested in Deepin Linux.
 You can assign a gif to display in the commad line or BEHOLD! Bow before the almighty kunkun, human!
 
